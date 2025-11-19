@@ -1,0 +1,71 @@
+/* --- section default --- */
+section {
+  padding-top: 6rem;
+  position: relative;
+}
+
+/* Font h1 */
+h1 {
+  font-family: Harrington;
+}
+
+/* card text */
+.card-text {
+  font-family:Georgia;
+  color:black;
+}
+
+/* About */
+#about-me {
+  background: #212529;
+}
+
+/* Color font eksternal */
+.color-font-ex {
+  color:white;
+}
+
+/* Experience */
+#experience {
+  background: #4d4d4d;
+  color: white;
+  text-align: center;
+}
+
+/* Font card-title */
+h5 {
+  color: black;
+  text-align: center;
+}
+
+/* Contact */
+#contact a img {
+  transition: transform 0.3s ease;
+}
+#contact a img:hover {
+  transform: scale(1.1);
+}
+
+/* buat navbar */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* buat Profile */
+.profile img {
+  width: 270px;
+  border-radius: 50%;
+  border: 3px solid #383838;
+}
+
+/* buat Footer */
+footer {
+  background-color: #212529;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
